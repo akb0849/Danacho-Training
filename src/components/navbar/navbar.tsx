@@ -1,27 +1,27 @@
-import React from 'react'
-import { Wrapper,Hamburger,LogoContainer,NavContainer,NavItem,NavItemContainer,SocialMediaIcon,SocialMediaIconContainer, InstaIcon, TwitterIcon } from './navbarElements'
-import LogoImage from '../../assets/logo1.png' 
+import React, { useState } from "react";
+import styled from "styled-components";
+import { Hamburger, Logo, Menu, MenuLink, Nav } from "./navbarElements";
+import LogoImage from '../../assets/logo1.png'
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
-    <Wrapper>
-      <NavContainer>
-      <LogoContainer>
-          <img src={LogoImage} alt=""/>
-        </LogoContainer>
-        <Hamburger />
-        <NavItemContainer>
-          <NavItem>Buy</NavItem>
-          <NavItem>About</NavItem>
-          <NavItem>FAQ</NavItem>
-          <NavItem>Contact</NavItem>
-        </NavItemContainer>
-        <SocialMediaIconContainer>
-          <SocialMediaIcon><InstaIcon /></SocialMediaIcon>
-          <SocialMediaIcon><TwitterIcon /></SocialMediaIcon>
-        </SocialMediaIconContainer>
-      </NavContainer>
-    </Wrapper>
-  )
-}
+    <Nav>
+      <Logo>
+        <img src={LogoImage}/>
+      </Logo>
+      <Hamburger onClick={() => setIsOpen(!isOpen)}>
+        <span />
+        <span />
+        <span />
+      </Hamburger>
+      <Menu isOpen={isOpen}>
+        <MenuLink href="">Buy</MenuLink>
+        <MenuLink href="">About</MenuLink>
+        <MenuLink href="">FAQ</MenuLink>
+        <MenuLink href="">Contact</MenuLink>
+      </Menu>
+    </Nav>
+  );
+};
 
 export default Navbar

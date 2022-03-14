@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+import Modal from '../../subComponents/modal/connectWallet'
 import { Wrapper, ConnectButton,Container,Input,Title, InputContainer, InputTitle } from './buyElements'
 
 const Buy = () => {
@@ -13,7 +13,7 @@ const Buy = () => {
           <InputTitle>Enter ETH</InputTitle>
           <Input />
         </InputContainer>
-        <ConnectButton>Connect Wallet</ConnectButton>
+        <ConnectButton><Modal/></ConnectButton>
       </Container>
     </Wrapper>
   )

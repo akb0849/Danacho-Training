@@ -1,5 +1,4 @@
 import React from 'react'
-import styled from 'styled-components'
 import { Wrapper,BottomContainer,BottomField,BottomFieldContainer,Footer,LeftContainer,MainContainer,RightContainer,TopContainer,TopField,TopFieldContainer, Title, SendButton} from './contactElements'
 import LogoImage from '../../assets/logo1.png'
 const Contact = () => {
