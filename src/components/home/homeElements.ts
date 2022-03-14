@@ -10,10 +10,11 @@ export const Wrapper = styled.div`
     background-repeat: no-repeat;
 
     
-    @media (max-width: 576px) {
+    @media (max-width: 768px) {
         background-size: 540px 100%;
         max-width: 540px;
         height: 100%;
+        margin-top: 72px;
     }
 `
 export const Container = styled.div`

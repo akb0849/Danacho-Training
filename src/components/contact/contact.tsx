@@ -1,6 +1,7 @@
 import React from 'react'
 import { Wrapper,BottomContainer,BottomField,BottomFieldContainer,Footer,LeftContainer,MainContainer,RightContainer,TopContainer,TopField,TopFieldContainer, Title, SendButton} from './contactElements'
 import LogoImage from '../../assets/logo1.png'
+import ScrollToTop from '../../subComponents/scrollToTop/scrollToTop'
 const Contact = () => {
   return (
     <Wrapper>
@@ -19,6 +20,7 @@ const Contact = () => {
               <BottomField placeholder='Message'/>
             </BottomFieldContainer>
             <SendButton>Send</SendButton>
+            <ScrollToTop />
           </RightContainer>
         </TopContainer>
         <BottomContainer>

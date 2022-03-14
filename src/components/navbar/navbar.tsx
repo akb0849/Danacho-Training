@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { Hamburger, Logo, Menu, MenuLink, Nav } from "./navbarElements";
+import { Hamburger, InstaIcon, Logo, Menu, MenuLink, Nav, SocialMediaContainer, SocialMediaIcon, TwitterIcon } from "./navbarElements";
 import LogoImage from '../../assets/logo1.png'
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,6 +20,14 @@ const Navbar = () => {
         <MenuLink href="">FAQ</MenuLink>
         <MenuLink href="">Contact</MenuLink>
       </Menu>
+      <SocialMediaContainer isOpen={isOpen}>
+        <SocialMediaIcon href="https://twitter.com/Danacho14">
+          <TwitterIcon/>
+        </SocialMediaIcon>
+        <SocialMediaIcon href="https://www.instagram.com/_danacho/">
+          <InstaIcon />
+        </SocialMediaIcon>
+      </SocialMediaContainer>
     </Nav>
   );
 };

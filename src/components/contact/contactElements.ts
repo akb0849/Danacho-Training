@@ -38,8 +38,8 @@ export const BottomContainer = styled.div`
 
 export const LeftContainer = styled.div`
     display: flex;
-    margin-left: 60px;
-    margin-top: 60px;
+    margin-left: 80px;
+    margin-top: 100px;
     & > img{
         width: 90px;
         height: 90px;

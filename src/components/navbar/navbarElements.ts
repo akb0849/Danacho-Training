@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import {Instagram} from '@styled-icons/boxicons-logos/Instagram'
+import { Twitter } from "styled-icons/boxicons-logos";
 interface Props{
     isOpen: any
 }
@@ -8,6 +10,7 @@ export const MenuLink = styled.a`
   text-align: center;
   text-decoration: none;
   color: black;
+  font-weight: bold;
   transition: all 0.3s ease-in;
   font-size: 0.9rem;
   &:hover {
@@ -26,7 +29,12 @@ export const Nav = styled.div`
   top: 0;
   left: 0;
   right: 0;
-`;
+  background-color: #DBE4E6;
+
+  @media (max-width: 768px) {    
+  }
+
+`
 
 export const Logo = styled.div`
   padding: 1rem 0;
@@ -65,3 +73,34 @@ export const Hamburger = styled.div`
     display: flex;
   }
 `;
+
+export const SocialMediaContainer = styled.div<Props>`
+  display: flex;
+  @media (max-width: 768px) {
+    display: ${({ isOpen }) => (isOpen ? "flex" : "none")};  
+    transition: display 0.3s ease-in-out;   
+    margin-left: 75px;  
+  }
+`
+
+export const SocialMediaIcon = styled.a`
+  background-color: #399ED9;
+  margin-left: 20px;
+  border-radius:9990px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+`
+
+export const InstaIcon = styled(Instagram)`
+  width: 30px;
+  height: 30px;
+  color:white;
+`
+
+export const TwitterIcon = styled(Twitter)`
+width: 30px;
+height: 30px;
+color: white;
+`
