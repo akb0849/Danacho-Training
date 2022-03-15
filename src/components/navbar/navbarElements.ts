@@ -77,9 +77,9 @@ export const Hamburger = styled.div`
 export const SocialMediaContainer = styled.div<Props>`
   display: flex;
   @media (max-width: 768px) {
-    display: ${({ isOpen }) => (isOpen ? "flex" : "none")};  
-    transition: display 0.3s ease-in-out;   
-    margin-left: 75px;  
+    max-height: ${({ isOpen }) => (isOpen ? "100%" : "0")};
+    transition: max-height 0.3s ease-in;
+    margin-left: 69px;  
   }
 `
 

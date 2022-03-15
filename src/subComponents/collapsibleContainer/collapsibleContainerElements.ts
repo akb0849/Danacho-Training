@@ -14,7 +14,7 @@ export const Wrapper = styled.div`
     margin-top: 20px;
     margin-bottom: 20px;
 
-    @media (max-width: 576px) {
+    @media (max-width: 768px) {
         &:first-child,
         :nth-of-type(2),
         :nth-of-type(3),
@@ -42,7 +42,7 @@ export const TriggerButton = styled.div`
 export const Title = styled.div`
     font-weight: bold;
     font-size: 20px;
-    @media (max-width: 576px) {
+    @media (max-width: 768px) {
         display: flex;
         flex-direction:column;
         align-items: center;
@@ -72,7 +72,7 @@ export const Content = styled.div`
     align-items: center;
     justify-content: center;
 
-    @media (max-width: 576px) {
+    @media (max-width: 768px) {
         width: 90%;        
     }
 `

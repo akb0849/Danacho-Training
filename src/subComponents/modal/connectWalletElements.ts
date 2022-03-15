@@ -5,7 +5,7 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.div`
     
-    @media (max-width: 576px){
+    @media (max-width: 768px){
         width: 100vw;      
     }
 `
@@ -26,7 +26,7 @@ export const Container = styled.div`
   justify-content: center;
   border-radius: 25px;
 
-  @media (max-width: 576px){
+  @media (max-width: 768px){
         width: 270px; 
     }
 `

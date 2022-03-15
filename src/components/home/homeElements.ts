@@ -25,7 +25,7 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
 
-    @media (max-width: 576px){
+    @media (max-width: 768px){
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -43,7 +43,7 @@ export const WelcomeTitle = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    @media (max-width: 576px){
+    @media (max-width: 768px){
         font-size: 25px;
         margin-top: 10px;
     }
@@ -59,7 +59,7 @@ export const SaleTitle = styled.div`
     align-items: center;
     justify-content: center;
 
-    @media (max-width: 576px){
+    @media (max-width: 768px){
         font-size: 20px;
         margin-top: 5px;
     }
@@ -72,7 +72,7 @@ export const TimerWrapper = styled.div`
     display: flex;
     align-items:center;
     justify-content: center;
-    @media (max-width: 576px) {
+    @media (max-width: 768px) {
         display: flex;
         flex-direction: column;
         &:first-child{
@@ -89,7 +89,7 @@ export const TimerContainer = styled.div`
     }
     justify-content: center;
     align-items: center;
-    @media (max-width: 576px) {
+    @media (max-width: 768px) {
         display: flex;
         flex-direction: column;
         &:first-child{
@@ -101,7 +101,7 @@ export const TimerContainer = styled.div`
 `
 export const Row = styled.div`
     display: flex;
-    @media (max-width: 576px) {
+    @media (max-width: 768px) {
         margin-left: 0;   
         align-items: center;
         justify-content: center;
@@ -114,7 +114,7 @@ export const Row = styled.div`
 export const Col = styled.div`
     display: flex;
     margin-left: 50px;
-    @media (max-width: 576px) {
+    @media (max-width: 768px) {
         margin-left: 0;  
         align-items: center;
         justify-content: center;      
@@ -129,7 +129,7 @@ export const TimerNumber = styled.div`
     line-height: 32px;
     font-weight: bold;
     font-size: 30px;
-    @media (max-width: 576px) {
+    @media (max-width: 768px) {
         display: flex;
         flex-direction: column;
         &:first-child{
@@ -148,7 +148,7 @@ export const TimerTitle = styled.div`
     align-items: center;
     justify-content: center;
     font-size: 20px;
-    @media (max-width: 576px) {
+    @media (max-width: 768px) {
         display: flex;
         flex-direction: column;
         &:first-child{

@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    @media (max-width: 576px){
+    @media (max-width: 768px){
     }
 `
 
@@ -19,7 +19,7 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     
-    @media (max-width: 576px){
+    @media (max-width: 768px){
     }
 
 `
@@ -43,7 +43,7 @@ export const InfoTitle = styled.div`
     color: black;
     font-weight: bold;
     font-size: 25px;
-    @media (max-width: 576px){
+    @media (max-width: 768px){
         font-size: large;
     }
 `
@@ -56,7 +56,7 @@ export const InfoDescription = styled.div`
     color: black;
     width: 500px;
     margin-top: 20px;
-    @media (max-width: 576px){
+    @media (max-width: 768px){
         width: 300px;
         display: flex;
         flex-direction: column;

@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    @media (max-width: 576px) {
+    @media (max-width: 768px) {
         width: 100%;        
     }
     
@@ -18,7 +18,7 @@ export const CollapsibleWrapper = styled.div`
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    @media (max-width: 576px) {
+    @media (max-width: 768px) {
         width: 100%;        
     }
 `
