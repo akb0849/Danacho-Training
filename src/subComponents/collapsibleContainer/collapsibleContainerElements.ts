@@ -69,8 +69,8 @@ export const Content = styled.div`
     margin-left: 20px;
     display: flex;
     flex-direction:column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
 
     @media (max-width: 768px) {
         width: 90%;        
