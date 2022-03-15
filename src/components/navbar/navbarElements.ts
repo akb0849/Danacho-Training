@@ -5,7 +5,7 @@ interface Props{
     isOpen: any
 }
 export const MenuLink = styled.a`
-  padding: 1rem 2rem;
+  padding: 1rem 10px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -13,9 +13,6 @@ export const MenuLink = styled.a`
   font-weight: bold;
   transition: all 0.3s ease-in;
   font-size: 0.9rem;
-  &:hover {
-    color: #7b7fda;
-  }
 `;
 
 export const Nav = styled.div`

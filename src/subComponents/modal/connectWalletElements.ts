@@ -1,10 +1,7 @@
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-//import {styled} from '@mui/styles'
 import styled from 'styled-components'
-
 export const Wrapper = styled.div`
-    
+    width: 100%;
+    height: 100%;    
     @media (max-width: 768px){
         width: 100vw;      
     }
