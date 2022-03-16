@@ -12,7 +12,7 @@ export const MenuLink = styled.a`
   color: black;
   font-weight: bold;
   transition: all 0.3s ease-in;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 `;
 
 export const Nav = styled.div`
