@@ -11,8 +11,8 @@ export const Wrapper = styled.div`
 
     
     @media (max-width: 768px) {
-        background-size: 540px 100%;
-        max-width: 540px;
+        background-size: 100vw 100%;
+        max-width: 100vw;
         height: 100%;
         margin-top: 72px;
     }
@@ -30,7 +30,7 @@ export const Container = styled.div`
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        max-width: 540px;
+        width: 100vw;
 
     }
 `

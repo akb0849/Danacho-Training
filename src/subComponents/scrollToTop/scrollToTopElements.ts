@@ -12,7 +12,7 @@ export const Button = styled.div`
     border-radius: 15px;
 
     @media (max-width: 768px){
-        margin-left: 270px;        
+        margin-left: calc(100% - 50px);        
     }
 `
 

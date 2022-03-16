@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-color: #6FB1BD;
     color: white;
     display: flex;
@@ -12,6 +12,12 @@ export const Wrapper = styled.div`
     @media (max-width: 768px) {
       width: 100%;
     }
+
+    @media (min-width: 1440px ) {
+        height: 100%;
+        
+    }
+
 `
 
 export const Container = styled.div`
@@ -19,6 +25,9 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100%;
+    margin-top: 100px;
+
 `
 export const Title = styled.div`
     color: black;
@@ -53,6 +62,9 @@ export const Input = styled.input`
     text-indent: 10px;
     outline: none;
     background: transparent;
+    @media (max-width: 768px) {
+      width: calc(100vw - 50px) ;
+    }
 `
 
 export const ConnectButton = styled.div`

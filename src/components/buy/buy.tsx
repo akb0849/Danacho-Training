@@ -1,7 +1,7 @@
 import React from 'react'
 import Modal from '../../subComponents/modal/connectWallet'
 import { Wrapper, ConnectButton,Container,Input,Title, InputContainer, InputTitle } from './buyElements'
-
+import BuyInfo from '../buyInfo/buyInfo'
 const Buy = () => {
   return (
     <Wrapper>
@@ -16,6 +16,7 @@ const Buy = () => {
         <ConnectButton><Modal/></ConnectButton>
       </Container>
     </Wrapper>
+    
   )
 }
 

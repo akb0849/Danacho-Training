@@ -11,6 +11,9 @@ export const Wrapper = styled.div`
     justify-content: center;
     @media (max-width: 768px){
     }
+    @media (min-width: 1440px ) {
+        height: 100%;
+    }
 `
 
 export const Container = styled.div`
@@ -20,6 +23,11 @@ export const Container = styled.div`
     justify-content: center;
     
     @media (max-width: 768px){
+    }
+
+    @media (min-width: 1440px ) {
+        height: 100%;
+        margin-top: 20px;
     }
 
 `
@@ -56,7 +64,8 @@ export const InfoDescription = styled.div`
     color: black;
     width: 500px;
     margin-top: 20px;
-    @media (max-width: 768px){
+  
+    @media (max-width: 760px){
         width: 300px;
         display: flex;
         flex-direction: column;
